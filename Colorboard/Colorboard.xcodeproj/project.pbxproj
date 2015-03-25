@@ -16,6 +16,8 @@
 		CF9A19611AC34684004F5DBB /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A19601AC34684004F5DBB /* ColorboardTests.m */; };
 		CF9A196B1AC346B4004F5DBB /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9A196A1AC346B4004F5DBB /* Colorboard.storyboard */; };
 		CF9A196E1AC35028004F5DBB /* OGMColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A196D1AC35028004F5DBB /* OGMColorViewController.m */; };
+		CF9A19711AC35868004F5DBB /* OGMPalleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A19701AC35868004F5DBB /* OGMPalleteViewController.m */; };
+		CF9A19741AC3595B004F5DBB /* OGMColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9A19731AC3595B004F5DBB /* OGMColorDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		CF9A196A1AC346B4004F5DBB /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
 		CF9A196C1AC35028004F5DBB /* OGMColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGMColorViewController.h; sourceTree = "<group>"; };
 		CF9A196D1AC35028004F5DBB /* OGMColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGMColorViewController.m; sourceTree = "<group>"; };
+		CF9A196F1AC35868004F5DBB /* OGMPalleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGMPalleteViewController.h; sourceTree = "<group>"; };
+		CF9A19701AC35868004F5DBB /* OGMPalleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGMPalleteViewController.m; sourceTree = "<group>"; };
+		CF9A19721AC3595A004F5DBB /* OGMColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGMColorDescription.h; sourceTree = "<group>"; };
+		CF9A19731AC3595B004F5DBB /* OGMColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGMColorDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 				CF9A196A1AC346B4004F5DBB /* Colorboard.storyboard */,
 				CF9A196C1AC35028004F5DBB /* OGMColorViewController.h */,
 				CF9A196D1AC35028004F5DBB /* OGMColorViewController.m */,
+				CF9A196F1AC35868004F5DBB /* OGMPalleteViewController.h */,
+				CF9A19701AC35868004F5DBB /* OGMPalleteViewController.m */,
+				CF9A19721AC3595A004F5DBB /* OGMColorDescription.h */,
+				CF9A19731AC3595B004F5DBB /* OGMColorDescription.m */,
 			);
 			path = Colorboard;
 			sourceTree = "<group>";
@@ -230,7 +240,9 @@
 			files = (
 				CF9A196E1AC35028004F5DBB /* OGMColorViewController.m in Sources */,
 				CF9A194D1AC34684004F5DBB /* ViewController.m in Sources */,
+				CF9A19711AC35868004F5DBB /* OGMPalleteViewController.m in Sources */,
 				CF9A194A1AC34684004F5DBB /* AppDelegate.m in Sources */,
+				CF9A19741AC3595B004F5DBB /* OGMColorDescription.m in Sources */,
 				CF9A19471AC34684004F5DBB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

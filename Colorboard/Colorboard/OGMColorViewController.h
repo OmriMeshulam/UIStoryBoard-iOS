@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "OGMColorDescription.h"
+
 @interface OGMColorViewController : UIViewController
+
+@property (nonatomic) BOOL existingColor;
+@property (nonatomic) OGMColorDescription *colorDescription;
 
 @end
